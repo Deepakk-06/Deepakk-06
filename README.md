@@ -18,7 +18,7 @@ I work across ROS 2, autonomous navigation, LiDAR-based mapping, embedded system
 | Project | What it shows | Stack |
 |---|---|---|
 | [ROS2 Model Predictive Control](https://github.com/Deepakk-06/ROS2-Model-Predictive-Control-) | MPC framework for autonomous robot navigation, path smoothing, and obstacle handling | Python, ROS 2, Control |
-| [Autonomous SLAM Robot](https://github.com/Deepakk-06/autonomous-slam-robot) | ROS 2 SLAM pipeline built in simulation and deployed onto real hardware (Raspberry Pi 4, LiDAR, IMU) | ROS 2, Gazebo, SLAM, Nav2, Raspberry Pi |
+| [Sentinel SLAM ROBOT](https://github.com/Deepakk-06/SENTINEL-SLAM) | ROS 2 SLAM pipeline built in simulation and deployed onto real hardware (Raspberry Pi 4, LiDAR, IMU) | ROS 2, Gazebo, SLAM, Nav2, Raspberry Pi |
 | [Soil Grain Detection Mapping](https://github.com/Deepakk-06/Soil-Grain-Detection-Mapping) | YOLO-based particle detection with spatial analysis and visualization | Python, YOLO, OpenCV |
 | [PID Line Following Robot](https://github.com/Deepakk-06/PID-Line-Following-Robot) | High-speed line-following robot using IR sensing and optimized PID control | Arduino, C, PID, Embedded |
 | [Human Robot Interaction using micro-ROS](https://github.com/Deepakk-06/Human-Robot-Interaction-System-using-micro-ROS) | Real-time embedded-to-ROS communication for robot control and sensing | Python, micro-ROS, ESP32 |
