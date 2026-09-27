@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Deepak</h1>
+<h1 align="center">deepAk . main character energy, side character sleep schedule.</h1>
 
 <h3 align="center">Geek · Embedded Systems · VLA Research</h3>
 
