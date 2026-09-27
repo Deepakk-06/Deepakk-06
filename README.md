@@ -18,8 +18,6 @@ Final-year **EEE** student building robots that deal with the messy parts — no
 
 I work across **SLAM-based mobile robots, legged robots, and manipulator arms**, and I'm currently researching whether **domain randomization improves generalization in VLA (Vision-Language-Action) models**, using OpenVLA in Isaac Sim.
 
-Incoming **Embedded Systems** role at **Harman**. Next up: an MS in Robotics — CMU RI / UMich / Georgia Tech.
-
 <br clear="right"/>
 
 <h2 align="center">🤝 Connect</h2>
