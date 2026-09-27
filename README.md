@@ -69,7 +69,7 @@ Simulation is the starting point — hardware is the real test. I'd rather ship 
 <h2 align="center">🔧 Currently Building</h2>
 
 <p align="center">
-SENTINEL (quadruped AMR, LiDAR SLAM) &nbsp;·&nbsp; Hexapod on STS3215 servos &nbsp;·&nbsp; SO-101 follower arm &nbsp;·&nbsp; STM32-based embedded control
+SENTINEL (quadruped AMR, LiDAR SLAM) &nbsp;·&nbsp; Hexapod on STS3215 servos &nbsp;·&nbsp; SO-101 follower arm &nbsp;·&nbsp; STM32-based embedded control &nbsp;·&nbsp; currently researching OpenVLA + domain randomization
 </p>
 
 <h2 align="center">📊 GitHub Stats</h2>
@@ -77,12 +77,6 @@ SENTINEL (quadruped AMR, LiDAR SLAM) &nbsp;·&nbsp; Hexapod on STS3215 servos &n
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=Deepakk-06&theme=dark&background=000000&border=000000&stroke=FFFFFF&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&sideNums=FFFFFF&sideLabels=FFFFFF&dates=AAAAAA&hide_border=false&border_radius=5" height="150"/>
 </div>
-
-<h2 align="center">📈 Activity Graph</h2>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Deepakk-06&bg_color=000000&color=FFFFFF&line=FFFFFF&point=FFFFFF&area=true&area_color=FFFFFF&hide_border=true&radius=16" alt="Activity Graph"/>
-</p>
 
 <h2 align="center">⌘ Commit Activity</h2>
 
