@@ -1,100 +1,155 @@
 <div align="center">
 
-# Deepak K
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,45:00C896,100:38BDF8&height=220&section=header&text=DEEPAK%20K&fontSize=68&fontColor=ffffff&fontAlignY=38&desc=ROBOTICS%20%7C%20CONTROL%20%7C%20REAL%20HARDWARE&descAlignY=58&descSize=17&animation=fadeIn" width="100%" />
 
-### EEE Student | Robotics Engineer | Building machines that leave simulation
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=00E5A8&center=true&vCenter=true&width=650&lines=Robots+that+survive+outside+simulation.;ROS+2+%7C+SLAM+%7C+MPC+%7C+Computer+Vision;Sense.+Decide.+Move." alt="Typing SVG" />
+</a>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-deepxk.vercel.app-00C7B7?style=for-the-badge&logo=vercel&logoColor=white)](https://deepxk.vercel.app)
-[![Email](https://img.shields.io/badge/Email-deeeps06%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:deeeps06@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Deepakk--06-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Deepakk-06)
+<br/>
 
-```text
-SENSE  -->  DECIDE  -->  MOVE
-```
+<a href="https://deepxk.vercel.app">
+  <img src="https://img.shields.io/badge/Portfolio-00E5A8?style=flat-square&logo=vercel&logoColor=black" />
+</a>
+<a href="mailto:deeeps06@gmail.com">
+  <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" />
+</a>
+<a href="https://github.com/Deepakk-06">
+  <img src="https://img.shields.io/badge/GitHub-161B22?style=flat-square&logo=github&logoColor=white" />
+</a>
 
 </div>
 
-> I build robots for the messy part: real sensors, real friction, real servo lag.  
-> If it only works in simulation, it is not finished.
+<br/>
 
-## System Check
+<table>
+<tr>
+<td width="55%" valign="top">
 
-```text
-$ ros2 launch deepak_bringup system_check.launch.py
+## Hello, world.
 
-[boot] EEE undergrad, robotics stack initializing...
-[sensors]      RPLiDAR A1 ................... OK   (12 m range, 360 deg)
-[sensors]      IMU (6-axis) ................. OK   (drift-compensated)
-[sensors]      camera + YOLOv8 .............. OK   (real-time inference)
-[localization] SLAM Toolbox + AMCL .......... LOCKED
-[planning]     Nav2 costmap ................. LOADED
-[planning]     MPC trajectory solver ........ CONVERGED   (obstacle-aware)
-[actuation]    18x STS3215 servos ........... SYNCED      (6 legs, 3 joints/leg)
-[actuation]    PID line-follow loop ......... TUNED       (Kp/Ki/Kd optimized)
-[deploy]       Gazebo sim -> real hardware .. CONFIRMED
+I'm **Deepak**, an EEE student building robots that sense, decide, and move on actual hardware.
 
-[status] 4/5 systems are running on physical hardware, not just RViz
-```
+I work at the intersection of autonomous navigation, control systems, embedded hardware, and computer vision.
 
-## The Mission
+> Simulation proves the idea.  
+> Hardware proves the engineer.
 
-I work across ROS 2 navigation, SLAM/localization, Model Predictive Control, embedded systems, and computer vision. The goal is not a flashy demo: it is a robot that can reliably sense its world, make a decision, and move through it.
-
-## Featured Builds
-
-### [Hexapod-6](https://github.com/Deepakk-06/hexapod-6) | 18-DOF Hexapod
-
-Hand-written inverse kinematics and gait generation drive 18 STS3215 servos across six legs on a Jetson Orin Nano. The real challenge is calibration drift across 18 joints and a gait that remains stable when one servo lags.
-
-`ROS 2` `Python` `Inverse Kinematics` `Gait Generation` `STS3215` `Jetson Orin Nano`
-
-### [Sentinel SLAM Robot](https://github.com/Deepakk-06/lidar-powered-autonomous-mapping-and-navigation) | Sim to Real Navigation
-
-Built and tuned in Gazebo, then deployed to a Raspberry Pi 4 with LiDAR and IMU. Mapping, localization, and Nav2 navigation had to survive the jump from a clean simulator to a real room.
-
-`ROS 2` `Gazebo` `Nav2` `SLAM Toolbox` `AMCL` `Raspberry Pi 4`
-
-### [ROS 2 Model Predictive Control](https://github.com/Deepakk-06/ROS2-Model-Predictive-Control-) | Obstacle-Aware Motion
-
-An MPC framework for trajectory tracking and obstacle-heavy paths, designed to out-corner a plain PID loop where path shape and actuator limits matter.
-
-`Python` `ROS 2` `MPC` `Trajectory Optimization` `Control`
-
-### [PID Line Following Robot](https://github.com/Deepakk-06/PID-Line-Following-Robot) | Fast Feedback Loops
-
-An embedded line follower using IR sensing and a tuned PID loop for predictable, high-speed correction.
-
-`C++` `PID` `Embedded Systems` `Motor Control` `IR Sensors`
-
-## Robotics Stack
-
-| Domain | Tools I use |
-| :-- | :-- |
-| Robot software | ROS 2, TF2, RViz, Gazebo, Colcon, CMake |
-| Autonomy | Nav2, SLAM Toolbox, AMCL, RPLiDAR, costmaps |
-| Control | MPC, PID, kinematics, trajectory tracking, gait generation |
-| Embedded | Jetson Orin Nano, Raspberry Pi 4, ESP32, micro-ROS, serial comms |
-| Perception | YOLOv8, OpenCV, camera pipelines, IMU fusion |
-| Languages | Python, C++, TypeScript |
-
-## Build Philosophy
+</td>
+<td width="45%" valign="top">
 
 ```text
-simulation    ->    hardware    ->    failure mode    ->    tune    ->    repeat
+SYSTEM // DEEPAK-K
+
+STATUS      BUILDING
+MODE        REAL-WORLD
+LOCATION    INDIA
+FOCUS       AUTONOMY
+UPTIME      CAFFEINATED
 ```
 
-- Calibrate before claiming a control algorithm is broken.
-- Treat sensor noise, latency, friction, and battery sag as design inputs.
-- Write documentation detailed enough for another engineer to rebuild the robot.
+</td>
+</tr>
+</table>
 
-## Current Focus
+## Selected Work
 
-Tuning Nav2, refining MPC behavior around obstacles, and documenting hardware work with the detail needed to make each build reproducible.
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 01 / Hexapod-6
+#### 18-DOF walking robot
+
+A six-legged robot with custom inverse kinematics and gait generation driving **18 STS3215 servos** on a Jetson Orin Nano.
+
+Built for the difficult stuff: servo lag, joint calibration drift, stability, and walking without pretending friction does not exist.
+
+`ROS 2` `Python` `IK` `Gait Generation` `Jetson`
+
+[View repository ->](https://github.com/Deepakk-06/hexapod-6)
+
+</td>
+<td width="50%" valign="top">
+
+### 02 / Sentinel
+#### SLAM robot: sim to real
+
+A LiDAR and IMU-powered autonomous robot taken from Gazebo onto a Raspberry Pi 4.
+
+Mapping, localization, and Nav2 navigation tested in the physical world, with real sensors and real rooms.
+
+`ROS 2` `Nav2` `SLAM Toolbox` `AMCL` `Gazebo`
+
+[View repository ->](https://github.com/Deepakk-06/lidar-powered-autonomous-mapping-and-navigation)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 03 / MPC Navigation
+#### Control with foresight
+
+Obstacle-aware Model Predictive Control for tracking trajectories where a regular PID loop starts losing the plot.
+
+`Python` `ROS 2` `MPC` `Optimization`
+
+[View repository ->](https://github.com/Deepakk-06/ROS2-Model-Predictive-Control-)
+
+</td>
+<td width="50%" valign="top">
+
+### 04 / PID Line Follower
+#### Fast feedback, clean motion
+
+An embedded line-following robot using IR sensing and tuned PID control for stable high-speed correction.
+
+`C++` `PID` `Embedded Systems` `Motor Control`
+
+[View repository ->](https://github.com/Deepakk-06/PID-Line-Following-Robot)
+
+</td>
+</tr>
+</table>
+
+## Toolkit
 
 <div align="center">
 
-### Build. Break. Tune. Repeat.
+<img src="https://skillicons.dev/icons?i=ros,python,cpp,opencv,linux,raspberrypi,git,github,vscode&theme=dark" />
 
-[![View Portfolio](https://img.shields.io/badge/Explore_the_portfolio-00C7B7?style=for-the-badge&logo=vercel&logoColor=white)](https://deepxk.vercel.app)
+</div>
+
+```text
+AUTONOMY     ROS 2  |  Nav2  |  SLAM Toolbox  |  AMCL  |  TF2
+CONTROL      MPC  |  PID  |  Kinematics  |  Trajectory Tracking
+HARDWARE     Jetson Orin Nano  |  Raspberry Pi 4  |  ESP32  |  LiDAR  |  IMU
+PERCEPTION   YOLOv8  |  OpenCV  |  Camera Pipelines  |  Sensor Fusion
+```
+
+## Now
+
+```text
+[01] Making Nav2 behave better in real spaces
+[02] Refining obstacle-aware MPC trajectories
+[03] Writing documentation people can actually rebuild from
+[04] Making robots less surprised by reality
+```
+
+<div align="center">
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=Deepakk-06&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00E5A8&icon_color=38BDF8&text_color=FFFFFF&ring_color=00E5A8" height="165" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Deepakk-06&hide_border=true&background=0D1117&ring=00E5A8&fire=00E5A8&currStreakLabel=38BDF8&sideLabels=FFFFFF&dates=94A3B8&currStreakNum=FFFFFF&sideNums=FFFFFF" height="165" />
+
+<br/><br/>
+
+### Build it in simulation. Prove it in reality.
+
+<a href="https://deepxk.vercel.app">
+  <img src="https://img.shields.io/badge/EXPLORE_MY_PORTFOLIO-00E5A8?style=for-the-badge&logo=vercel&logoColor=black" />
+</a>
 
 </div>
