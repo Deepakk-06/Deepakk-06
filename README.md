@@ -12,11 +12,13 @@
 
 <h2 align="center">🤖 About Me</h2>
 
-<img align="right" src="./assets/sentinel.jpg" width="280" alt="Sentinel" />
+<img align="right" src="./assets/sentinel.jpg" width="260" alt="Sentinel" />
 
 Final-year **EEE** student building robots that deal with the messy parts — noisy sensors, drift, latency, hardware that refuses to behave.
 
 I work across **SLAM-based mobile robots, legged robots, and manipulator arms**, and I'm currently researching whether **domain randomization improves generalization in VLA (Vision-Language-Action) models**, using OpenVLA in Isaac Sim.
+
+Simulation is the starting point — hardware is the real test. I'd rather ship something that works on a bench full of loose wires than something that only works in a clean simulator.
 
 <br clear="right"/>
 
@@ -41,15 +43,14 @@ I work across **SLAM-based mobile robots, legged robots, and manipulator arms**,
 <h2 align="center">🔩 Single-Board Computers</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/RASPBERRY_PI_4-000000?style=flat-square&logo=raspberrypi&logoColor=white" />
-  <img src="https://img.shields.io/badge/JETSON_ORIN_NANO-000000?style=flat-square&logo=nvidia&logoColor=white" />
+  <img src="https://img.shields.io/badge/RASPBERRY_PI-000000?style=flat-square&logo=raspberrypi&logoColor=white" />
   <img src="https://img.shields.io/badge/JETSON-000000?style=flat-square&logo=nvidia&logoColor=white" />
 </p>
 
 <h2 align="center">🔌 Microcontrollers</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/STM32F407VET6-000000?style=flat-square&logo=stmicroelectronics&logoColor=white" />
+  <img src="https://img.shields.io/badge/STM32-000000?style=flat-square&logo=stmicroelectronics&logoColor=white" />
   <img src="https://img.shields.io/badge/ARDUINO-000000?style=flat-square&logo=arduino&logoColor=white" />
   <img src="https://img.shields.io/badge/ESP32-000000?style=flat-square&logo=espressif&logoColor=white" />
 </p>
