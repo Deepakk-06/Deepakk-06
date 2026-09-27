@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Deepak</h1>
 
-<h3 align="center">Robotics Engineer · Embedded Systems · VLA Research</h3>
+<h3 align="center">Geek · Embedded Systems · VLA Research</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=FFFFFF&background=00000000&center=true&vCenter=true&width=650&height=50&lines=%3E+training+policies+that+survive+real+hardware;%3E+debugging+SLAM+at+2AM;%3E+OpenVLA+%2B+domain+randomization;%3E+building+legs%2C+arms%2C+and+the+brains+between+them" alt="Typing SVG" />
@@ -90,8 +90,3 @@ SENTINEL (quadruped AMR, LiDAR SLAM) &nbsp;·&nbsp; Hexapod on STS3215 servos &n
   </p>
 </picture>
 
-<h2 align="center">⌘ Philosophy</h2>
-
-<p align="center">
-  <em>"Simulators are cheap. Reality is not. I build for reality."</em>
-</p>
