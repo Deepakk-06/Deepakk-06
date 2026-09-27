@@ -1,11 +1,16 @@
-<h1 align="center">Deepak K</h1>
-<h3 align="center">EEE Student · Building robots that sense, decide, and move</h3>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:05070d,100:00f7ff&height=200&section=header&text=Deepak%20K&fontColor=ffffff&fontSize=55&animation=fadeIn&fontAlignY=38&desc=Sense.%20Decide.%20Move.&descAlignY=58&descSize=20" width="100%"/>
 
 <p align="center">
   <a href="https://deepxk.vercel.app">Portfolio</a> ·
   <a href="mailto:deeeps06@gmail.com">Email</a> ·
   <a href="https://github.com/Deepakk-06">GitHub</a>
 </p>
+
+<p align="center">
+  <img src="./media/hexapod-lidar.svg" width="100%" alt="Animated LiDAR sweep and 18-DOF hexapod tripod gait, hand-built SVG"/>
+</p>
+
+<p align="center"><i>That's not a GIF — it's a live SVG animation of an actual LiDAR sweep and an 18-DOF tripod gait cycle, running in real time in this README.</i></p>
 
 ```
 $ ros2 launch deepak_bringup system_check.launch.py
@@ -114,72 +119,6 @@ Moving from "code repo" to "working engineering proof" — better demo videos, c
 
 <p align="center">
 <a href="https://deepxk.vercel.app">deepxk.vercel.app</a> · <a href="mailto:deeeps06@gmail.com">deeeps06@gmail.com</a>
-</p>MPC framework for smooth trajectory tracking and obstacle-aware navigation.
-`Python` `ROS 2` `Control Theory`
-
-</td>
-<td width="50%">
-
-**🌾 [Soil Grain Detection Mapping](https://github.com/Deepakk-06/Soil-Grain-Detection-Mapping)**
-YOLO-based particle detection with spatial analysis + visualization.
-`YOLO` `OpenCV` `Python`
-
-</td>
-</tr>
-<tr>
-<td colspan="2">
-
-**⚡ [PID Line Following Robot](https://github.com/Deepakk-06/PID-Line-Following-Robot)**
-High-speed IR line-following with tuned PID — because slow robots are boring.
-`Arduino` `C` `Embedded`
-
-</td>
-</tr>
-</table>
-
----
-
-### 🛠️ Tech Arsenal
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,c,arduino,raspberrypi,linux,git,github,opencv,tensorflow,kicad&perline=11" />
 </p>
 
-**Robotics:** ROS 2 · Gazebo · RViz · Nav2 · SLAM Toolbox · AMCL · TF2
-**Control:** PID · Model Predictive Control · Trajectory Tracking · Kinematics
-**Embedded:** ESP32 · micro-ROS · Serial Comm · Sensors · Motor Control
-**Vision:** OpenCV · YOLO · Image Processing · Detection Pipelines
-
----
-
-### 📊 The Stats Don't Lie
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Deepakk-06&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Deepakk-06&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Deepakk-06&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Deepakk-06&theme=tokyo-night&hide_border=true" />
-</p>
-
----
-
-### 🎯 Current Focus
-
-> Turning code repos into **working engineering proof** — stronger demo evidence, cleaner docs, and complete end-to-end robot systems that don't just run in simulation, but survive contact with the real world.
-
----
-
-<h3 align="center">📡 Let's connect and build something that moves</h3>
-
-<p align="center">
-  <a href="https://deepxk.vercel.app"><img src="https://img.shields.io/badge/🌐_Portfolio-visit-00F7FF?style=for-the-badge" /></a>
-  <a href="mailto:deeeps06@gmail.com"><img src="https://img.shields.io/badge/📧_Email-reach_out-FF6B6B?style=for-the-badge" /></a>
-</p>
-
-<p align="center"><i>Currently building something huge, one control loop at a time. ⚙️</i></p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f7ff,100:05070d&height=120&section=footer" width="100%"/>
