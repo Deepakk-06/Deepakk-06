@@ -1,155 +1,152 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,45:00C896,100:38BDF8&height=220&section=header&text=DEEPAK%20K&fontSize=68&fontColor=ffffff&fontAlignY=38&desc=ROBOTICS%20%7C%20CONTROL%20%7C%20REAL%20HARDWARE&descAlignY=58&descSize=17&animation=fadeIn" width="100%" />
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=00E5A8&center=true&vCenter=true&width=650&lines=Robots+that+survive+outside+simulation.;ROS+2+%7C+SLAM+%7C+MPC+%7C+Computer+Vision;Sense.+Decide.+Move." alt="Typing SVG" />
-</a>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:020604,50:071C11,100:0B2A19&height=105&text=DEEPAK%20K%20%2F%2F%20ROBOTICS%20DIVISION&fontSize=28&fontColor=8CFFAA&fontAlignY=54&stroke=39FF72&strokeWidth=1" width="100%" />
 
 <br/>
 
+# THE HARDWARE WARRIOR
+
+### EEE Student | Robotics | Control Systems | Real Hardware
+
+<img src="warrior.jpg" width="100%" alt="Robotics warrior system interface" />
+
+<br/>
+
+`SENSE` `->` `DECIDE` `->` `MOVE`
+
 <a href="https://deepxk.vercel.app">
-  <img src="https://img.shields.io/badge/Portfolio-00E5A8?style=flat-square&logo=vercel&logoColor=black" />
+  <img src="https://img.shields.io/badge/PORTFOLIO-00D26A?style=for-the-badge&logo=vercel&logoColor=black" />
 </a>
 <a href="mailto:deeeps06@gmail.com">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" />
+  <img src="https://img.shields.io/badge/CONTACT-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 <a href="https://github.com/Deepakk-06">
-  <img src="https://img.shields.io/badge/GitHub-161B22?style=flat-square&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/CODEBASE-161B22?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
 </div>
 
-<br/>
-
-<table>
-<tr>
-<td width="55%" valign="top">
-
-## Hello, world.
-
-I'm **Deepak**, an EEE student building robots that sense, decide, and move on actual hardware.
-
-I work at the intersection of autonomous navigation, control systems, embedded hardware, and computer vision.
-
-> Simulation proves the idea.  
-> Hardware proves the engineer.
-
-</td>
-<td width="45%" valign="top">
+---
 
 ```text
-SYSTEM // DEEPAK-K
-
-STATUS      BUILDING
-MODE        REAL-WORLD
-LOCATION    INDIA
-FOCUS       AUTONOMY
-UPTIME      CAFFEINATED
+IDENTITY       DEEPAK K
+ROLE           EEE STUDENT / ROBOTICS ENGINEER
+MODE           BUILDING FOR THE REAL WORLD
+CORE BELIEF    SIMULATION IS THE STARTING POINT.
 ```
 
-</td>
-</tr>
-</table>
+> I build robots that deal with the messy parts: noisy sensors, friction, latency,
+> calibration drift, servo lag, and hardware that refuses to behave perfectly.
 
-## Selected Work
+## SYSTEM STATUS
+
+```text
+$ ros2 launch deepak_bringup system_check.launch.py
+
+[BOOT]         Robotics stack initializing...
+[SENSORS]      RPLiDAR A1 ..................... ONLINE
+[SENSORS]      6-axis IMU ..................... STABLE
+[SENSORS]      Camera + YOLOv8 ................ TRACKING
+
+[LOCALIZATION] SLAM Toolbox + AMCL ............ LOCKED
+[NAVIGATION]   Nav2 costmap ................... ACTIVE
+[CONTROL]      MPC trajectory solver .......... CONVERGED
+
+[ACTUATION]    18x STS3215 servos ............. SYNCHRONIZED
+[ACTUATION]    PID line following loop ........ TUNED
+[DEPLOYMENT]   Gazebo -> physical robot ....... VERIFIED
+
+[MISSION]      Build machines that work beyond RViz.
+```
+
+## FEATURED BUILDS
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 01 / Hexapod-6
+### HEXAPOD-6
 #### 18-DOF walking robot
 
-A six-legged robot with custom inverse kinematics and gait generation driving **18 STS3215 servos** on a Jetson Orin Nano.
+Custom inverse kinematics and gait generation drive 18 STS3215 servos across six legs on a Jetson Orin Nano.
 
-Built for the difficult stuff: servo lag, joint calibration drift, stability, and walking without pretending friction does not exist.
+The challenge is keeping a gait stable when calibration shifts and a servo arrives late.
 
 `ROS 2` `Python` `IK` `Gait Generation` `Jetson`
 
-[View repository ->](https://github.com/Deepakk-06/hexapod-6)
+[VIEW PROJECT ->](https://github.com/Deepakk-06/hexapod-6)
 
 </td>
 <td width="50%" valign="top">
 
-### 02 / Sentinel
+### SENTINEL
 #### SLAM robot: sim to real
 
-A LiDAR and IMU-powered autonomous robot taken from Gazebo onto a Raspberry Pi 4.
+Built in Gazebo, then deployed to a Raspberry Pi 4 with LiDAR and IMU.
 
-Mapping, localization, and Nav2 navigation tested in the physical world, with real sensors and real rooms.
+Mapping, localization, and Nav2 navigation tested where the floor has friction and sensors have opinions.
 
 `ROS 2` `Nav2` `SLAM Toolbox` `AMCL` `Gazebo`
 
-[View repository ->](https://github.com/Deepakk-06/lidar-powered-autonomous-mapping-and-navigation)
+[VIEW PROJECT ->](https://github.com/Deepakk-06/lidar-powered-autonomous-mapping-and-navigation)
 
 </td>
 </tr>
+
 <tr>
 <td width="50%" valign="top">
 
-### 03 / MPC Navigation
-#### Control with foresight
+### MPC NAVIGATION
+#### Obstacle-aware motion
 
-Obstacle-aware Model Predictive Control for tracking trajectories where a regular PID loop starts losing the plot.
+A Model Predictive Control framework for trajectory tracking on paths where plain PID cannot plan far enough ahead.
 
 `Python` `ROS 2` `MPC` `Optimization`
 
-[View repository ->](https://github.com/Deepakk-06/ROS2-Model-Predictive-Control-)
+[VIEW PROJECT ->](https://github.com/Deepakk-06/ROS2-Model-Predictive-Control-)
 
 </td>
 <td width="50%" valign="top">
 
-### 04 / PID Line Follower
-#### Fast feedback, clean motion
+### PID LINE FOLLOWER
+#### Fast feedback loops
 
-An embedded line-following robot using IR sensing and tuned PID control for stable high-speed correction.
+An embedded robot using IR sensing and a tuned PID loop for stable, high-speed line tracking.
 
 `C++` `PID` `Embedded Systems` `Motor Control`
 
-[View repository ->](https://github.com/Deepakk-06/PID-Line-Following-Robot)
+[VIEW PROJECT ->](https://github.com/Deepakk-06/PID-Line-Following-Robot)
 
 </td>
 </tr>
 </table>
 
-## Toolkit
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=ros,python,cpp,opencv,linux,raspberrypi,git,github,vscode&theme=dark" />
-
-</div>
+## LOADOUT
 
 ```text
-AUTONOMY     ROS 2  |  Nav2  |  SLAM Toolbox  |  AMCL  |  TF2
-CONTROL      MPC  |  PID  |  Kinematics  |  Trajectory Tracking
-HARDWARE     Jetson Orin Nano  |  Raspberry Pi 4  |  ESP32  |  LiDAR  |  IMU
-PERCEPTION   YOLOv8  |  OpenCV  |  Camera Pipelines  |  Sensor Fusion
+ROBOT SOFTWARE    ROS 2 / Nav2 / TF2 / RViz / Gazebo
+AUTONOMY          SLAM Toolbox / AMCL / Costmaps / RPLiDAR
+CONTROL           MPC / PID / Kinematics / Trajectory Tracking
+HARDWARE          Jetson Orin Nano / Raspberry Pi 4 / ESP32 / IMU / LiDAR
+PERCEPTION        YOLOv8 / OpenCV / Sensor Fusion
+LANGUAGES         Python / C++ / TypeScript
 ```
 
-## Now
+## CURRENT MISSION
 
 ```text
-[01] Making Nav2 behave better in real spaces
-[02] Refining obstacle-aware MPC trajectories
-[03] Writing documentation people can actually rebuild from
-[04] Making robots less surprised by reality
+[01] Tune Nav2 for better physical-world navigation
+[02] Refine MPC around obstacle-heavy trajectories
+[03] Document every robot so it can be rebuilt
+[04] Turn "it works in simulation" into "it works here"
 ```
 
 <div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Deepakk-06&show_icons=true&hide_border=true&bg_color=020604&title_color=8CFFAA&icon_color=39FF72&text_color=D1FADF" height="165" />
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=Deepakk-06&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00E5A8&icon_color=38BDF8&text_color=FFFFFF&ring_color=00E5A8" height="165" />
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Deepakk-06&hide_border=true&background=0D1117&ring=00E5A8&fire=00E5A8&currStreakLabel=38BDF8&sideLabels=FFFFFF&dates=94A3B8&currStreakNum=FFFFFF&sideNums=FFFFFF" height="165" />
-
-<br/><br/>
-
-### Build it in simulation. Prove it in reality.
-
-<a href="https://deepxk.vercel.app">
-  <img src="https://img.shields.io/badge/EXPLORE_MY_PORTFOLIO-00E5A8?style=for-the-badge&logo=vercel&logoColor=black" />
-</a>
+### BUILD THE MACHINE. TEST REALITY. REPEAT.
 
 </div>
