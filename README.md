@@ -1,192 +1,104 @@
-<div align="center">
+<h1 align="center">Hi 👋, I'm Deepak</h1>
 
-```
-01001100 01101111 01100001 01100100 01101001 01101110 01100111
-```
+<h3 align="center">Robotics Engineer · Embedded Systems · VLA Research</h3>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=1600&pause=400&color=FFFFFF&background=00000000&center=true&vCenter=true&width=700&lines=%3E+establishing+secure+connection...;%3E+bypassing+firewall...;%3E+decrypting+profile...;%3E+ACCESS+GRANTED" alt="terminal boot" />
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=FFFFFF&background=00000000&center=true&vCenter=true&width=650&height=50&lines=%3E+training+policies+that+survive+real+hardware;%3E+debugging+SLAM+at+2AM;%3E+OpenVLA+%2B+domain+randomization;%3E+building+legs%2C+arms%2C+and+the+brains+between+them" alt="Typing SVG" />
+</p>
 
-<br/>
+<p align="center">
+  Building robots that survive contact with real hardware.
+</p>
 
-# D E E P A K &nbsp; K
+<h2 align="center">🤖 About Me</h2>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2800&pause=900&color=FFFFFF&background=00000000&center=true&vCenter=true&width=650&lines=training+policies+that+survive+contact+with+hardware;debugging+SLAM+at+2AM+because+the+map+warped;OpenVLA+%2B+domain+randomization+%2B+Isaac+Sim;building+legs%2C+arms%2C+and+the+brains+between+them" alt="typing" />
+<img align="right" src="./assets/sentinel.jpg" width="280" alt="Sentinel" />
 
-<br/>
+Final-year **EEE** student building robots that deal with the messy parts — noisy sensors, drift, latency, hardware that refuses to behave.
 
-<img src="assets/sentinel.jpg" width="42%" alt="The Sentinel" />
+I work across **SLAM-based mobile robots, legged robots, and manipulator arms**, and I'm currently researching whether **domain randomization improves generalization in VLA (Vision-Language-Action) models**, using OpenVLA in Isaac Sim.
 
-<br/>
-<br/>
+Incoming **Embedded Systems** role at **Harman**. Next up: an MS in Robotics — CMU RI / UMich / Georgia Tech.
 
-```
-╔══════════════════════════════════════════════════════════════╗
-║  BOOT ➜ SENSE ➜ PLAN ➜ ACT ➜ LEARN ➜ REPEAT                    ║
-╚══════════════════════════════════════════════════════════════╝
-```
+<br clear="right"/>
 
-</div>
+<h2 align="center">🤝 Connect</h2>
 
-<br/>
+<p align="center">
+  <a href="https://github.com/Deepakk-06"><img src="https://img.shields.io/badge/GITHUB-000000?style=flat-square&logo=github&logoColor=white" /></a>
+  &nbsp;
+  <a href="https://deepxk.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-000000?style=flat-square&logo=vercel&logoColor=white" /></a>
+  &nbsp;
+  <a href="mailto:deeeps06@gmail.com"><img src="https://img.shields.io/badge/EMAIL-000000?style=flat-square&logo=gmail&logoColor=white" /></a>
+</p>
 
-```
-┌──[ root@deepak ]──[ ~/identity ]
-│
-│  $ whoami --verbose
-│
-│  NAME        Deepak K
-│  BRANCH      Electrical & Electronics Engineering
-│  INSTITUTE   New Horizon College of Engineering, Bengaluru
-│  STATUS      Final year — incoming Embedded Systems role, Harman
-│  TARGET      MS Robotics — CMU RI / UMich / Georgia Tech
-│  PHILOSOPHY  Simulation is the starting point. Hardware is the test.
-│
-└──[ session authenticated ]
-```
+<h2 align="center">🧠 Languages</h2>
 
-<br/>
+<p align="center">
+  <img src="https://img.shields.io/badge/PYTHON-000000?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/C-000000?style=flat-square&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/EMBEDDED_C-000000?style=flat-square&logo=stmicroelectronics&logoColor=white" />
+</p>
 
-## ▓ TRANSMISSION LOG
+<h2 align="center">🔩 Single-Board Computers</h2>
 
-```
-┌───────────────────────────────────────────────────────────────┐
-│ > I don't just train policies in simulation and call it done.  │
-│ > I mount the sensor, fry the WiFi chip, fix it over Ethernet  │
-│ > at 2 AM, re-tune the LiDAR mount when the map warps, fuse    │
-│ > in the IMU, and only then trust the SLAM output.             │
-│ >                                                               │
-│ > Simulators are cheap. Reality is not. I build for reality.   │
-└───────────────────────────────────────────────────────────────┘
-```
+<p align="center">
+  <img src="https://img.shields.io/badge/RASPBERRY_PI_4-000000?style=flat-square&logo=raspberrypi&logoColor=white" />
+  <img src="https://img.shields.io/badge/JETSON_ORIN_NANO-000000?style=flat-square&logo=nvidia&logoColor=white" />
+  <img src="https://img.shields.io/badge/JETSON-000000?style=flat-square&logo=nvidia&logoColor=white" />
+</p>
 
-<br/>
+<h2 align="center">🔌 Microcontrollers</h2>
 
-## ▓ ACTIVE HARDWARE
+<p align="center">
+  <img src="https://img.shields.io/badge/STM32F407VET6-000000?style=flat-square&logo=stmicroelectronics&logoColor=white" />
+  <img src="https://img.shields.io/badge/ARDUINO-000000?style=flat-square&logo=arduino&logoColor=white" />
+  <img src="https://img.shields.io/badge/ESP32-000000?style=flat-square&logo=espressif&logoColor=white" />
+</p>
 
-```
-┌─[ SENTINEL — QUADRUPED AMR ]────────────────────────────────────
-│  4-wheel autonomous mobile robot
-│  LiDAR SLAM · IMU sensor fusion
-│  Raspberry Pi 4 · Arduino Nano
-│  ROS 2 stack, full hardware build · co-built with a 3-person team
-└───────────────────────────────────────────────────────────────
+<h2 align="center">💻 Frameworks & Tools</h2>
 
-┌─[ HEXAPOD ]──────────────────────────────────────────────────────
-│  6-legged walker on STS3215 servos
-│  Jetson Orin Nano · onboard LiDAR
-│  Hiwonder-inspired kinematic design
-│  next → mounting a LeRobot arm on top
-└───────────────────────────────────────────────────────────────
+<p align="center">
+  <img src="https://img.shields.io/badge/ROS_2-000000?style=flat-square&logo=ros&logoColor=white" />
+  <img src="https://img.shields.io/badge/OPENCV-000000?style=flat-square&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/PYTORCH-000000?style=flat-square&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/GAZEBO-000000?style=flat-square&logo=gazebo&logoColor=white" />
+  <img src="https://img.shields.io/badge/ISAAC_SIM-000000?style=flat-square&logo=nvidia&logoColor=white" />
+  <img src="https://img.shields.io/badge/LINUX-000000?style=flat-square&logo=linux&logoColor=white" />
+</p>
 
-┌─[ SO-101 FOLLOWER ARM ]─────────────────────────────────────────
-│  LeRobot-compatible manipulator
-│  Budget build → ~₹10,000
-│  Jetson + Waveshare driver board
-└───────────────────────────────────────────────────────────────
+<h2 align="center">🔧 Currently Building</h2>
 
-┌─[ EMBEDDED STACK ]──────────────────────────────────────────────
-│  STM32F407VET6 · low-level control
-│  micro-ROS2 for human-robot interface
-└───────────────────────────────────────────────────────────────
-```
+<p align="center">
+SENTINEL (quadruped AMR, LiDAR SLAM) &nbsp;·&nbsp; Hexapod on STS3215 servos &nbsp;·&nbsp; SO-101 follower arm &nbsp;·&nbsp; STM32-based embedded control
+</p>
 
-<br/>
-
-## ▓ RESEARCH
-
-```
-┌───────────────────────────────────────────────────────────────┐
-│  Investigating whether domain randomization improves           │
-│  generalization in Vision-Language-Action (VLA) models         │
-│  for robotic manipulation.                                     │
-│                                                                  │
-│  MODEL         OpenVLA                                         │
-│  ENVIRONMENT   NVIDIA Isaac Sim / Isaac Lab                    │
-│  QUESTION      Does randomizing sim visuals/physics close      │
-│                the sim-to-real gap for language-conditioned    │
-│                policies?                                       │
-│  NEXT          Extending this pipeline onto the hexapod        │
-└───────────────────────────────────────────────────────────────┘
-```
-
-<br/>
-
-## ▓ SIGNAL CHAIN
-
-```
-[X]  SLAM-based AMR          LiDAR + IMU fusion, real hardware
-[X]  Quadruped / Hexapod     Custom servo-driven walking robot
-[X]  PID line follower       8-channel IR sensor array
-[X]  MPC controller          Model Predictive Control · Gazebo/TurtleBot
-[X]  HRI system              micro-ROS2 human-robot interaction
-[X]  Vision pipeline         YOLOv8 detection, trained on Colab
-[X]  Soil classification     OpenCV grain/type mapping by camera
-[X]  VLA research            Domain randomization · OpenVLA + Isaac Sim
-[ ]  VLA on legged hardware  Hexapod + LeRobot arm — in progress
-```
-
-<br/>
-
-## ▓ METRICS
+<h2 align="center">📊 GitHub Stats</h2>
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Deepakk-06&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=FFFFFF&text_color=FFFFFF&icon_color=FFFFFF" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Deepakk-06&theme=dark&hide_border=true&background=00000000&stroke=FFFFFF&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF" width="48%" />
-
+  <img src="https://streak-stats.demolab.com?user=Deepakk-06&theme=dark&background=000000&border=000000&stroke=FFFFFF&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&sideNums=FFFFFF&sideLabels=FFFFFF&dates=AAAAAA&hide_border=false&border_radius=5" height="150"/>
 </div>
 
-<br/>
+<h2 align="center">📈 Activity Graph</h2>
 
-## ▓ STACK
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Deepakk-06&bg_color=000000&color=FFFFFF&line=FFFFFF&point=FFFFFF&area=true&area_color=FFFFFF&hide_border=true&radius=16" alt="Activity Graph"/>
+</p>
 
-<div align="center">
+<h2 align="center">⌘ Commit Activity</h2>
 
-![ROS2](https://img.shields.io/badge/ROS_2-000000?style=flat-square&logo=ros&logoColor=white)
-![Python](https://img.shields.io/badge/PYTHON-000000?style=flat-square&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/EMBEDDED_C-000000?style=flat-square&logo=c&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OPENCV-000000?style=flat-square&logo=opencv&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PYTORCH-000000?style=flat-square&logo=pytorch&logoColor=white)
-![Gazebo](https://img.shields.io/badge/GAZEBO-000000?style=flat-square&logo=gazebo&logoColor=white)
-![STM32](https://img.shields.io/badge/STM32-000000?style=flat-square&logo=stmicroelectronics&logoColor=white)
-![Jetson](https://img.shields.io/badge/JETSON-000000?style=flat-square&logo=nvidia&logoColor=white)
-![Linux](https://img.shields.io/badge/LINUX-000000?style=flat-square&logo=linux&logoColor=white)
-![Git](https://img.shields.io/badge/GIT-000000?style=flat-square&logo=git&logoColor=white)
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Deepakk-06/Deepakk-06/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Deepakk-06/Deepakk-06/output/pacman-contribution-graph.svg">
+  <p align="center">
+    <img src="https://raw.githubusercontent.com/Deepakk-06/Deepakk-06/output/pacman-contribution-graph-dark.svg" alt="Pacman contribution graph">
+  </p>
+</picture>
 
-</div>
+<h2 align="center">⌘ Philosophy</h2>
 
-<br/>
-
-## ▓ CONNECT
-
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-FFFFFF?style=flat-square&logo=vercel&logoColor=black)](https://deepxk.vercel.app)
-[![Email](https://img.shields.io/badge/EMAIL-FFFFFF?style=flat-square&logo=gmail&logoColor=black)](mailto:deeeps06@gmail.com)
-[![GitHub](https://img.shields.io/badge/GITHUB-FFFFFF?style=flat-square&logo=github&logoColor=black)](https://github.com/Deepakk-06)
-
-</div>
-
-<br/>
-
-```
-┌──[ root@deepak ]──[ ~/status ]
-│
-│  $ tail -f /var/log/deepak/status
-│
-│  [STATUS]  Ramping into embedded systems @ Harman
-│  [STATUS]  Applied — Fanuc (awaiting response)
-│  [STATUS]  Building — SO-101 arm on a hexapod chassis
-│  [STATUS]  Applying — CMU RI / UMich / Georgia Tech, Fall intake
-│  [EOF]     This machine builds robots that survive contact with reality.
-│
-└──[ connection closed ]_
-```
-
-<div align="center">
-
-```
-01000010 01111001 01100101
-```
-
-</div>
+<p align="center">
+  <em>"Simulators are cheap. Reality is not. I build for reality."</em>
+</p>
