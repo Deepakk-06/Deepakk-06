@@ -1,152 +1,166 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:020604,50:071C11,100:0B2A19&height=105&text=DEEPAK%20K%20%2F%2F%20ROBOTICS%20DIVISION&fontSize=28&fontColor=8CFFAA&fontAlignY=54&stroke=39FF72&strokeWidth=1" width="100%" />
+<br/>
+
+# D E E P A K &nbsp; K
+
+### ROBOTICS &nbsp;·&nbsp; EMBEDDED SYSTEMS &nbsp;·&nbsp; VLA RESEARCH
 
 <br/>
 
-# THE HARDWARE WARRIOR
-
-### EEE Student | Robotics | Control Systems | Real Hardware
-
-<img src="warrior.jpg" width="100%" alt="Robotics warrior system interface" />
+<img src="assets/sentinel.jpg" width="100%" alt="The Sentinel" />
 
 <br/>
+<br/>
 
-`SENSE` `->` `DECIDE` `->` `MOVE`
+███████████████████████████████████████████████████████
 
-<a href="https://deepxk.vercel.app">
-  <img src="https://img.shields.io/badge/PORTFOLIO-00D26A?style=for-the-badge&logo=vercel&logoColor=black" />
-</a>
-<a href="mailto:deeeps06@gmail.com">
-  <img src="https://img.shields.io/badge/CONTACT-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-<a href="https://github.com/Deepakk-06">
-  <img src="https://img.shields.io/badge/CODEBASE-161B22?style=for-the-badge&logo=github&logoColor=white" />
-</a>
+`BOOT` &nbsp;→&nbsp; `SENSE` &nbsp;→&nbsp; `PLAN` &nbsp;→&nbsp; `ACT` &nbsp;→&nbsp; `LEARN` &nbsp;→&nbsp; `REPEAT`
+
+███████████████████████████████████████████████████████
 
 </div>
 
----
+<br/>
 
-```text
-IDENTITY       DEEPAK K
-ROLE           EEE STUDENT / ROBOTICS ENGINEER
-MODE           BUILDING FOR THE REAL WORLD
-CORE BELIEF    SIMULATION IS THE STARTING POINT.
+```
+root@deepak:~$ whoami --verbose
+─────────────────────────────────────────────────────────────
+NAME        Deepak K
+BRANCH      Electrical & Electronics Engineering
+INSTITUTE   New Horizon College of Engineering, Bengaluru
+STATUS      Final year — incoming Embedded Systems role, Harman
+TARGET      MS Robotics — CMU RI / UMich / Georgia Tech
+PHILOSOPHY  Simulation is the starting point. Hardware is the test.
+─────────────────────────────────────────────────────────────
 ```
 
-> I build robots that deal with the messy parts: noisy sensors, friction, latency,
-> calibration drift, servo lag, and hardware that refuses to behave perfectly.
+<br/>
 
-## SYSTEM STATUS
+## TRANSMISSION LOG
 
-```text
-$ ros2 launch deepak_bringup system_check.launch.py
+```
+I don't just train policies in simulation and call it done.
+I mount the sensor, fry the WiFi chip, fix it over Ethernet at 2 AM,
+re-tune the LiDAR mount when the map warps, fuse in the IMU,
+and only then trust the SLAM output.
 
-[BOOT]         Robotics stack initializing...
-[SENSORS]      RPLiDAR A1 ..................... ONLINE
-[SENSORS]      6-axis IMU ..................... STABLE
-[SENSORS]      Camera + YOLOv8 ................ TRACKING
-
-[LOCALIZATION] SLAM Toolbox + AMCL ............ LOCKED
-[NAVIGATION]   Nav2 costmap ................... ACTIVE
-[CONTROL]      MPC trajectory solver .......... CONVERGED
-
-[ACTUATION]    18x STS3215 servos ............. SYNCHRONIZED
-[ACTUATION]    PID line following loop ........ TUNED
-[DEPLOYMENT]   Gazebo -> physical robot ....... VERIFIED
-
-[MISSION]      Build machines that work beyond RViz.
+Simulators are cheap. Reality is not. I build for reality.
 ```
 
-## FEATURED BUILDS
+<br/>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+## ACTIVE HARDWARE
 
-### HEXAPOD-6
-#### 18-DOF walking robot
+```
+SENTINEL — QUADRUPED AMR
+─────────────────────────────────────────────────
+4-wheel autonomous mobile robot
+LiDAR SLAM · IMU sensor fusion
+Raspberry Pi 4 · Arduino Nano
+ROS 2 stack, full hardware build
+co-built with a 3-person team
 
-Custom inverse kinematics and gait generation drive 18 STS3215 servos across six legs on a Jetson Orin Nano.
 
-The challenge is keeping a gait stable when calibration shifts and a servo arrives late.
+HEXAPOD
+─────────────────────────────────────────────────
+6-legged walker on STS3215 servos
+Jetson Orin Nano · onboard LiDAR
+Hiwonder-inspired kinematic design
+next → mounting a LeRobot arm on top
 
-`ROS 2` `Python` `IK` `Gait Generation` `Jetson`
 
-[VIEW PROJECT ->](https://github.com/Deepakk-06/hexapod-6)
+SO-101 FOLLOWER ARM
+─────────────────────────────────────────────────
+LeRobot-compatible manipulator
+Budget build → ~₹10,000
+Jetson + Waveshare driver board
 
-</td>
-<td width="50%" valign="top">
 
-### SENTINEL
-#### SLAM robot: sim to real
-
-Built in Gazebo, then deployed to a Raspberry Pi 4 with LiDAR and IMU.
-
-Mapping, localization, and Nav2 navigation tested where the floor has friction and sensors have opinions.
-
-`ROS 2` `Nav2` `SLAM Toolbox` `AMCL` `Gazebo`
-
-[VIEW PROJECT ->](https://github.com/Deepakk-06/lidar-powered-autonomous-mapping-and-navigation)
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### MPC NAVIGATION
-#### Obstacle-aware motion
-
-A Model Predictive Control framework for trajectory tracking on paths where plain PID cannot plan far enough ahead.
-
-`Python` `ROS 2` `MPC` `Optimization`
-
-[VIEW PROJECT ->](https://github.com/Deepakk-06/ROS2-Model-Predictive-Control-)
-
-</td>
-<td width="50%" valign="top">
-
-### PID LINE FOLLOWER
-#### Fast feedback loops
-
-An embedded robot using IR sensing and a tuned PID loop for stable, high-speed line tracking.
-
-`C++` `PID` `Embedded Systems` `Motor Control`
-
-[VIEW PROJECT ->](https://github.com/Deepakk-06/PID-Line-Following-Robot)
-
-</td>
-</tr>
-</table>
-
-## LOADOUT
-
-```text
-ROBOT SOFTWARE    ROS 2 / Nav2 / TF2 / RViz / Gazebo
-AUTONOMY          SLAM Toolbox / AMCL / Costmaps / RPLiDAR
-CONTROL           MPC / PID / Kinematics / Trajectory Tracking
-HARDWARE          Jetson Orin Nano / Raspberry Pi 4 / ESP32 / IMU / LiDAR
-PERCEPTION        YOLOv8 / OpenCV / Sensor Fusion
-LANGUAGES         Python / C++ / TypeScript
+EMBEDDED STACK
+─────────────────────────────────────────────────
+STM32F407VET6 · low-level control
+micro-ROS2 for human-robot interface
 ```
 
-## CURRENT MISSION
+<br/>
 
-```text
-[01] Tune Nav2 for better physical-world navigation
-[02] Refine MPC around obstacle-heavy trajectories
-[03] Document every robot so it can be rebuilt
-[04] Turn "it works in simulation" into "it works here"
+## RESEARCH
+
+```
+Investigating whether domain randomization improves
+generalization in Vision-Language-Action (VLA) models
+for robotic manipulation.
+
+MODEL         OpenVLA
+ENVIRONMENT   NVIDIA Isaac Sim / Isaac Lab
+QUESTION      Does randomizing sim visuals/physics close
+              the sim-to-real gap for language-conditioned
+              policies?
+NEXT          Extending this pipeline onto the hexapod
+```
+
+<br/>
+
+## SIGNAL CHAIN
+
+```
+[X]  SLAM-based AMR          LiDAR + IMU fusion, real hardware
+[X]  Quadruped / Hexapod     Custom servo-driven walking robot
+[X]  PID line follower       8-channel IR sensor array
+[X]  MPC controller          Model Predictive Control · Gazebo/TurtleBot
+[X]  HRI system              micro-ROS2 human-robot interaction
+[X]  Vision pipeline         YOLOv8 detection, trained on Colab
+[X]  Soil classification     OpenCV grain/type mapping by camera
+[X]  VLA research             Domain randomization · OpenVLA + Isaac Sim
+[ ]  VLA on legged hardware  Hexapod + LeRobot arm — in progress
+```
+
+<br/>
+
+## STACK
+
+<div align="center">
+
+![ROS2](https://img.shields.io/badge/ROS_2-000000?style=flat-square&logo=ros&logoColor=white)
+![Python](https://img.shields.io/badge/PYTHON-000000?style=flat-square&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/EMBEDDED_C-000000?style=flat-square&logo=c&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OPENCV-000000?style=flat-square&logo=opencv&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PYTORCH-000000?style=flat-square&logo=pytorch&logoColor=white)
+![Gazebo](https://img.shields.io/badge/GAZEBO-000000?style=flat-square&logo=gazebo&logoColor=white)
+![STM32](https://img.shields.io/badge/STM32-000000?style=flat-square&logo=stmicroelectronics&logoColor=white)
+![Jetson](https://img.shields.io/badge/JETSON-000000?style=flat-square&logo=nvidia&logoColor=white)
+![Linux](https://img.shields.io/badge/LINUX-000000?style=flat-square&logo=linux&logoColor=white)
+![Git](https://img.shields.io/badge/GIT-000000?style=flat-square&logo=git&logoColor=white)
+
+</div>
+
+<br/>
+
+## CONNECT
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-FFFFFF?style=flat-square&logo=vercel&logoColor=black)](https://deepxk.vercel.app)
+[![Email](https://img.shields.io/badge/EMAIL-FFFFFF?style=flat-square&logo=gmail&logoColor=black)](mailto:deeeps06@gmail.com)
+[![GitHub](https://img.shields.io/badge/GITHUB-FFFFFF?style=flat-square&logo=github&logoColor=black)](https://github.com/Deepakk-06)
+
+</div>
+
+<br/>
+
+```
+$ tail -f /var/log/deepak/status
+
+[STATUS]  Ramping into embedded systems @ Harman
+[STATUS]  Applied — Fanuc (awaiting response)
+[STATUS]  Building — SO-101 arm on a hexapod chassis
+[STATUS]  Applying — CMU RI / UMich / Georgia Tech, Fall intake
+[EOF]     This machine builds robots that survive contact with reality.
 ```
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Deepakk-06&show_icons=true&hide_border=true&bg_color=020604&title_color=8CFFAA&icon_color=39FF72&text_color=D1FADF" height="165" />
-
-<br/>
-
-### BUILD THE MACHINE. TEST REALITY. REPEAT.
+███████████████████████████████████████████████████████
 
 </div>
