@@ -36,7 +36,7 @@ I am improving my robotics portfolio with stronger demo evidence, cleaner docume
 
 ## Connect
 
-* Portfolio: [portfolio-v21-eight.vercel.app](https://portfolio-v21-eight.vercel.app)
+* Portfolio: [portfolio-v21-eight.vercel.app](https://deepxk.vercel.app)
 * Email: [deeeps06@gmail.com](mailto:deeeps06@gmail.com)
 
 ---
