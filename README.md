@@ -29,8 +29,26 @@ Simulation is the starting point — hardware is the real test. I'd rather ship 
   &nbsp;
   <a href="https://deepxk.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-000000?style=flat-square&logo=vercel&logoColor=white" /></a>
   &nbsp;
+  <a href="https://www.linkedin.com/in/deepk6/"><img src="https://img.shields.io/badge/LINKEDIN-000000?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  &nbsp;
   <a href="mailto:deeeps06@gmail.com"><img src="https://img.shields.io/badge/EMAIL-000000?style=flat-square&logo=gmail&logoColor=white" /></a>
 </p>
+
+<h2 align="center">🚀 Featured Projects</h2>
+
+<div align="center">
+
+| Project | What it is |
+| --- | --- |
+| 🕷️ [**hexapod-6**](https://github.com/Deepakk-06/hexapod-6) | Six-legged autonomous robot combining Jetson high-level compute with STM32 real-time servo control, running ROS 2 for LiDAR SLAM and coordinated gait control |
+| 🛰️ [**SENTINEL-SLAM**](https://github.com/Deepakk-06/SENTINEL-SLAM) | Autonomous ROS 2 rover with LiDAR SLAM, Nav2 navigation, and real-time monocular depth estimation (Depth Anything V2) streamed from a Pi to a GPU host |
+| 🎯 [**ROS2 MPC Navigation**](https://github.com/Deepakk-06/ROS2-Model-Predictive-Control-) | ROS 2 Model Predictive Control framework for autonomous robot navigation: trajectory tracking, path smoothing and real-time obstacle handling |
+| 🚫🌿 [**skill-match (Branchless)**](https://github.com/Deepakk-06/skill-match) | A skill-first hiring platform that looks beyond degree branches and matches students through skills, projects and real evidence |
+| 🌱 [**Soil Grain Detection**](https://github.com/Deepakk-06/Soil-Grain-Detection-Mapping) | YOLO-based soil grain detection and mapping, with edge deployment for real-time soil assessment |
+| ⚛️ [**quantum_research**](https://github.com/Deepakk-06/quantum_research) | Conceptual research study on QUBO and QAOA for traffic-aware path planning in autonomous delivery robots |
+| 🕹️ [**personal-portfolio**](https://github.com/Deepakk-06/personal-portfolio) | Retro-arcade portfolio with a Pong loader, 3D avatar and live listening card |
+
+</div>
 
 <h2 align="center">🧠 Languages</h2>
 
@@ -89,4 +107,3 @@ SENTINEL (quadruped AMR, LiDAR SLAM) &nbsp;·&nbsp; Hexapod on STS3215 servos &n
     <img src="https://raw.githubusercontent.com/Deepakk-06/Deepakk-06/output/pacman-contribution-graph-dark.svg" alt="Pacman contribution graph">
   </p>
 </picture>
-
