@@ -2,7 +2,7 @@
   <img src="./assets/hero.gif" width="380" alt="Deepak banner" />
 </p>
 
-<h1 align="center">Deepak</h1>
+<h1 align="center">deepAk</h1>
 
 <p align="center">
   Robotics and embedded systems engineer.<br/>
