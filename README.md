@@ -2,7 +2,13 @@
   <img src="./assets/hero.gif" width="380" alt="Deepak banner" />
 </p>
 
-<h1 align="center">Deepak</h1>
+<p align="center">
+  <img src="./assets/seal.png" width="270" alt="Deepak" />
+</p>
+
+<h2 align="center">D E E P A K</h2>
+
+<p align="center"><sub><b>ROBOTICS &nbsp;·&nbsp; EMBEDDED SYSTEMS &nbsp;·&nbsp; VLA RESEARCH</b></sub></p>
 
 <p align="center">
   Robotics and embedded systems engineer.<br/>
@@ -83,54 +89,54 @@ Nonlinear Model Predictive Control for path tracking on a TurtleBot3. Waypoints 
   <tr>
     <td width="170" valign="top"><b>Robotics &amp; control</b></td>
     <td>
-      <img src="https://img.shields.io/badge/ROS_2-24242b?style=flat-square&logo=ros&logoColor=white" alt="ROS 2" />
-      <img src="https://img.shields.io/badge/Nav2-24242b?style=flat-square" alt="Nav2" />
-      <img src="https://img.shields.io/badge/SLAM_Toolbox-24242b?style=flat-square" alt="SLAM Toolbox" />
-      <img src="https://img.shields.io/badge/Model_Predictive_Control-24242b?style=flat-square" alt="Model Predictive Control" />
-      <img src="https://img.shields.io/badge/Inverse_Kinematics-24242b?style=flat-square" alt="Inverse Kinematics" />
-      <img src="https://img.shields.io/badge/Gait_Generation-24242b?style=flat-square" alt="Gait Generation" />
-      <img src="https://img.shields.io/badge/LiDAR_SLAM-24242b?style=flat-square" alt="LiDAR SLAM" />
+      <img src="https://img.shields.io/badge/ROS_2-CE1C18?style=flat-square&logo=ros&logoColor=white" alt="ROS 2" />
+      <img src="https://img.shields.io/badge/Nav2-CE1C18?style=flat-square" alt="Nav2" />
+      <img src="https://img.shields.io/badge/SLAM_Toolbox-CE1C18?style=flat-square" alt="SLAM Toolbox" />
+      <img src="https://img.shields.io/badge/Model_Predictive_Control-CE1C18?style=flat-square" alt="Model Predictive Control" />
+      <img src="https://img.shields.io/badge/Inverse_Kinematics-CE1C18?style=flat-square" alt="Inverse Kinematics" />
+      <img src="https://img.shields.io/badge/Gait_Generation-CE1C18?style=flat-square" alt="Gait Generation" />
+      <img src="https://img.shields.io/badge/LiDAR_SLAM-CE1C18?style=flat-square" alt="LiDAR SLAM" />
     </td>
   </tr>
   <tr>
     <td width="170" valign="top"><b>Perception &amp; ML</b></td>
     <td>
-      <img src="https://img.shields.io/badge/PyTorch-24242b?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-      <img src="https://img.shields.io/badge/OpenCV-24242b?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
-      <img src="https://img.shields.io/badge/YOLO-24242b?style=flat-square" alt="YOLO" />
-      <img src="https://img.shields.io/badge/Depth_Anything_V2-24242b?style=flat-square" alt="Depth Anything V2" />
-      <img src="https://img.shields.io/badge/OpenVLA-24242b?style=flat-square" alt="OpenVLA" />
+      <img src="https://img.shields.io/badge/PyTorch-CE1C18?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+      <img src="https://img.shields.io/badge/OpenCV-CE1C18?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
+      <img src="https://img.shields.io/badge/YOLO-CE1C18?style=flat-square" alt="YOLO" />
+      <img src="https://img.shields.io/badge/Depth_Anything_V2-CE1C18?style=flat-square" alt="Depth Anything V2" />
+      <img src="https://img.shields.io/badge/OpenVLA-CE1C18?style=flat-square" alt="OpenVLA" />
     </td>
   </tr>
   <tr>
     <td width="170" valign="top"><b>Simulation</b></td>
     <td>
-      <img src="https://img.shields.io/badge/MuJoCo-24242b?style=flat-square" alt="MuJoCo" />
-      <img src="https://img.shields.io/badge/Gazebo-24242b?style=flat-square" alt="Gazebo" />
-      <img src="https://img.shields.io/badge/RViz-24242b?style=flat-square" alt="RViz" />
+      <img src="https://img.shields.io/badge/MuJoCo-CE1C18?style=flat-square" alt="MuJoCo" />
+      <img src="https://img.shields.io/badge/Gazebo-CE1C18?style=flat-square" alt="Gazebo" />
+      <img src="https://img.shields.io/badge/RViz-CE1C18?style=flat-square" alt="RViz" />
     </td>
   </tr>
   <tr>
     <td width="170" valign="top"><b>Embedded &amp; hardware</b></td>
     <td>
-      <img src="https://img.shields.io/badge/STM32-24242b?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32" />
-      <img src="https://img.shields.io/badge/ESP32-24242b?style=flat-square&logo=espressif&logoColor=white" alt="ESP32" />
-      <img src="https://img.shields.io/badge/Arduino-24242b?style=flat-square&logo=arduino&logoColor=white" alt="Arduino" />
-      <img src="https://img.shields.io/badge/Jetson-24242b?style=flat-square&logo=nvidia&logoColor=white" alt="Jetson" />
-      <img src="https://img.shields.io/badge/Raspberry_Pi-24242b?style=flat-square&logo=raspberrypi&logoColor=white" alt="Raspberry Pi" />
-      <img src="https://img.shields.io/badge/Serial_Bus_Servos-24242b?style=flat-square" alt="Serial Bus Servos" />
-      <img src="https://img.shields.io/badge/LiDAR-24242b?style=flat-square" alt="LiDAR" />
+      <img src="https://img.shields.io/badge/STM32-CE1C18?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32" />
+      <img src="https://img.shields.io/badge/ESP32-CE1C18?style=flat-square&logo=espressif&logoColor=white" alt="ESP32" />
+      <img src="https://img.shields.io/badge/Arduino-CE1C18?style=flat-square&logo=arduino&logoColor=white" alt="Arduino" />
+      <img src="https://img.shields.io/badge/Jetson-CE1C18?style=flat-square&logo=nvidia&logoColor=white" alt="Jetson" />
+      <img src="https://img.shields.io/badge/Raspberry_Pi-CE1C18?style=flat-square&logo=raspberrypi&logoColor=white" alt="Raspberry Pi" />
+      <img src="https://img.shields.io/badge/Serial_Bus_Servos-CE1C18?style=flat-square" alt="Serial Bus Servos" />
+      <img src="https://img.shields.io/badge/LiDAR-CE1C18?style=flat-square" alt="LiDAR" />
     </td>
   </tr>
   <tr>
     <td width="170" valign="top"><b>Languages &amp; tools</b></td>
     <td>
-      <img src="https://img.shields.io/badge/Python-24242b?style=flat-square&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/C-24242b?style=flat-square&logo=c&logoColor=white" alt="C" />
-      <img src="https://img.shields.io/badge/Embedded_C-24242b?style=flat-square" alt="Embedded C" />
-      <img src="https://img.shields.io/badge/Linux-24242b?style=flat-square&logo=linux&logoColor=white" alt="Linux" />
-      <img src="https://img.shields.io/badge/Git-24242b?style=flat-square&logo=git&logoColor=white" alt="Git" />
-      <img src="https://img.shields.io/badge/LeRobot-24242b?style=flat-square" alt="LeRobot" />
+      <img src="https://img.shields.io/badge/Python-CE1C18?style=flat-square&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/C-CE1C18?style=flat-square&logo=c&logoColor=white" alt="C" />
+      <img src="https://img.shields.io/badge/Embedded_C-CE1C18?style=flat-square" alt="Embedded C" />
+      <img src="https://img.shields.io/badge/Linux-CE1C18?style=flat-square&logo=linux&logoColor=white" alt="Linux" />
+      <img src="https://img.shields.io/badge/Git-CE1C18?style=flat-square&logo=git&logoColor=white" alt="Git" />
+      <img src="https://img.shields.io/badge/LeRobot-CE1C18?style=flat-square" alt="LeRobot" />
     </td>
   </tr>
 </table>
@@ -146,3 +152,4 @@ Nonlinear Model Predictive Control for path tracking on a TurtleBot3. Waypoints 
     <img src="https://raw.githubusercontent.com/Deepakk-06/Deepakk-06/output/pacman-contribution-graph-dark.svg" alt="Pacman contribution graph">
   </p>
 </picture>
+
