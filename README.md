@@ -88,13 +88,8 @@ Nonlinear Model Predictive Control for path tracking on a TurtleBot3. Waypoints 
 
 <!--LASTFM:START-->
 <p align="center">
-  <a href="https://www.last.fm/music/Travis+Scott/_/SKITZO+(feat.+Young+Thug)"><b>SKITZO (feat. Young Thug)</b></a> &nbsp;·&nbsp; Travis Scott<br/>
-  <a href="https://www.last.fm/music/The+Chainsmokers/_/%23SELFIE"><b>#SELFIE</b></a> &nbsp;·&nbsp; The Chainsmokers<br/>
-  <a href="https://www.last.fm/music/Martin+Garrix/_/Helicopter+-+Video+Edit"><b>Helicopter - Video Edit</b></a> &nbsp;·&nbsp; Martin Garrix<br/>
-  <a href="https://www.last.fm/music/Drake/_/IDGAF+(feat.+Yeat)"><b>IDGAF (feat. Yeat)</b></a> &nbsp;·&nbsp; Drake<br/>
-  <a href="https://www.last.fm/music/DJ+Snake/_/U+Are+My+High+(with+Future)"><b>U Are My High (with Future)</b></a> &nbsp;·&nbsp; DJ Snake<br/>
+  <a href="https://lastfm-card-psi.vercel.app/api/play"><img src="https://lastfm-card-psi.vercel.app/api/lastfm" width="460" alt="Last played on Last.fm" /></a>
 </p>
-<p align="center"><sub><a href="https://www.last.fm/user/d33pxk">last.fm profile</a></sub></p>
 <!--LASTFM:END-->
 
 ## Activity
