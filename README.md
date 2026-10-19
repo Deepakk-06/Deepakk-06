@@ -74,7 +74,6 @@ Nonlinear Model Predictive Control for path tracking on a TurtleBot3. Waypoints 
 
 ## In progress
 
-- **Hexapod + SO-101 testbed** for the research above: STS3215 servo stack, arm integration through LeRobot, data collection for LoRA fine-tuning
 - **SENTINEL:** quadruped AMR with LiDAR SLAM
 - **STM32-based embedded control**
 
@@ -88,7 +87,7 @@ Nonlinear Model Predictive Control for path tracking on a TurtleBot3. Waypoints 
 
 <!--LASTFM:START-->
 <p align="center">
-  <a href="https://lastfm-card-psi.vercel.app/api/play"><img src="https://lastfm-card-psi.vercel.app/api/lastfm" width="460" alt="Last played on Last.fm" /></a>
+  <a href="https://lastfm-card-psi.vercel.app/api/play"><img src="https://lastfm-card-psi.vercel.app/api/lastfm" width="340" alt="Last played on Last.fm" /></a>
 </p>
 <!--LASTFM:END-->
 
