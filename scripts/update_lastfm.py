@@ -1,107 +1,77 @@
-import html
 import json
 import os
-import re
 import sys
-import time
 import urllib.parse
 import urllib.request
+from html import escape
 
-USER = os.environ.get("LASTFM_USER", "")
-KEY = os.environ.get("LASTFM_API_KEY", "")
-LIMIT = 5
-README = "README.md"
 START = "<!--LASTFM:START-->"
 END = "<!--LASTFM:END-->"
-PLACEHOLDER_ART = "2a96cbd8b46e442fc41c2b86b821562f"  # Last.fm's default grey star image
+README = "README.md"
+LIMIT = 5
 
+user = os.environ.get("LASTFM_USER", "").strip()
+key = os.environ.get("LASTFM_API_KEY", "").strip()
+if not user or not key:
+    sys.exit("ERROR: LASTFM_USER or LASTFM_API_KEY is empty. Check repo secrets.")
 
-def fetch():
-    query = urllib.parse.urlencode({
-        "method": "user.getrecenttracks",
-        "user": USER,
-        "api_key": KEY,
-        "format": "json",
-        "limit": LIMIT,
-    })
-    req = urllib.request.Request(
-        "https://ws.audioscrobbler.com/2.0/?" + query,
-        headers={"User-Agent": "profile-readme-updater"},
+params = urllib.parse.urlencode({
+    "method": "user.getrecenttracks",
+    "user": user,
+    "api_key": key,
+    "format": "json",
+    "limit": LIMIT,
+})
+url = "https://ws.audioscrobbler.com/2.0/?" + params
+
+try:
+    with urllib.request.urlopen(url, timeout=20) as r:
+        data = json.load(r)
+except Exception as e:
+    sys.exit(f"ERROR: request to Last.fm failed: {e}")
+
+if "error" in data:
+    sys.exit(f"ERROR from Last.fm: {data.get('message')} (code {data['error']})")
+
+tracks = data.get("recenttracks", {}).get("track", [])
+if isinstance(tracks, dict):
+    tracks = [tracks]
+
+lines = []
+for t in tracks[:LIMIT]:
+    name = escape(t.get("name", "Unknown"))
+    artist = escape(t.get("artist", {}).get("#text", "Unknown"))
+    link = escape(t.get("url", f"https://www.last.fm/user/{user}"), quote=True)
+    playing = t.get("@attr", {}).get("nowplaying") == "true"
+    tag = "▶ now playing" if playing else ""
+    lines.append(
+        f'  <a href="{link}"><b>{name}</b></a> &nbsp;·&nbsp; {artist}'
+        + (f' &nbsp;·&nbsp; <i>{tag}</i>' if tag else "")
+        + "<br/>"
     )
-    with urllib.request.urlopen(req, timeout=20) as resp:
-        return json.load(resp)
 
+if not lines:
+    body = '<p align="center"><sub>No recent tracks found.</sub></p>'
+else:
+    body = '<p align="center">\n' + "\n".join(lines) + "\n</p>\n"
+    body += (
+        f'<p align="center"><sub><a href="https://www.last.fm/user/{escape(user)}">'
+        "last.fm profile</a></sub></p>"
+    )
 
-def ago(uts):
-    seconds = max(0, int(time.time()) - int(uts))
-    if seconds < 3600:
-        return f"{max(1, seconds // 60)} min ago"
-    if seconds < 86400:
-        return f"{seconds // 3600} h ago"
-    return f"{seconds // 86400} d ago"
+with open(README, "r", encoding="utf-8") as f:
+    text = f.read()
 
+if START not in text or END not in text:
+    sys.exit(f"ERROR: markers {START} / {END} not found in {README}")
 
-def cover(track):
-    images = track.get("image") or []
-    url = ""
-    for img in images:
-        if img.get("size") in ("large", "extralarge") and img.get("#text"):
-            url = img["#text"]
-            break
-    if not url or PLACEHOLDER_ART in url:
-        return ""
-    return url
+head, rest = text.split(START, 1)
+_, tail = rest.split(END, 1)
+new = f"{head}{START}\n{body}\n{END}{tail}"
 
-
-def render(data):
-    tracks = data.get("recenttracks", {}).get("track", [])
-    if isinstance(tracks, dict):
-        tracks = [tracks]
-    rows = []
-    for t in tracks[:LIMIT]:
-        name = html.escape(t.get("name", ""))
-        artist = html.escape((t.get("artist") or {}).get("#text", ""))
-        link = html.escape(t.get("url", "#"), quote=True)
-        playing = (t.get("@attr") or {}).get("nowplaying") == "true"
-        when = "Now playing" if playing else ago((t.get("date") or {}).get("uts", time.time()))
-        art = cover(t)
-        img = (
-            f'<img src="{html.escape(art, quote=True)}" width="48" height="48" alt="" />'
-            if art
-            else "&#9835;"
-        )
-        rows.append(
-            "  <tr>\n"
-            f'    <td width="64" align="center">{img}</td>\n'
-            f'    <td><b><a href="{link}">{name}</a></b><br/>{artist}<br/><sub>{when}</sub></td>\n'
-            "  </tr>"
-        )
-    if not rows:
-        return "<sub>No recent tracks.</sub>"
-    return '<table align="center">\n' + "\n".join(rows) + "\n</table>\n\n<p align=\"center\"><sub>Updated automatically from Last.fm</sub></p>"
-
-
-def inject(text, block):
-    pattern = re.compile(re.escape(START) + r".*?" + re.escape(END), re.DOTALL)
-    if not pattern.search(text):
-        sys.exit("Markers not found in README.md")
-    return pattern.sub(lambda m: f"{START}\n{block}\n{END}", text)
-
-
-def main():
-    if not USER or not KEY:
-        sys.exit("Set LASTFM_USER and LASTFM_API_KEY")
-    block = render(fetch())
-    with open(README, encoding="utf-8") as f:
-        old = f.read()
-    new = inject(old, block)
-    if new != old:
-        with open(README, "w", encoding="utf-8") as f:
-            f.write(new)
-        print("README updated")
-    else:
-        print("No change")
-
-
-if __name__ == "__main__":
-    main()
+if new != text:
+    with open(README, "w", encoding="utf-8") as f:
+        f.write(new)
+    print("README updated.")
+else:
+    print("No change.")
