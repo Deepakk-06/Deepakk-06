@@ -2,7 +2,7 @@
   <img src="./assets/hero.gif" width="380" alt="Deepak banner" />
 </p>
 
-<h1 align="center">deepAk</h1>
+<h1 align="center">Deepak</h1>
 
 <p align="center">
   Robotics and embedded systems engineer.<br/>
@@ -20,14 +20,21 @@
 
 ## About
 
-Final-year EEE student working across SLAM-based mobile robots, legged robots, and manipulator arms. My focus is the part that breaks first in the real world: noisy sensors, drift, latency, and hardware that refuses to behave.
+Final-year EEE student at New Horizon College of Engineering, Bengaluru, working across SLAM-based mobile robots, legged robots, and manipulator arms. My focus is the part that breaks first in the real world: noisy sensors, drift, latency, and hardware that refuses to behave.
 
 I don't treat simulation as the finish line. A system isn't done until it runs on a bench full of loose wires.
 
+**Focus areas:** legged locomotion · SLAM and navigation · model predictive control · embedded control · vision-language-action models
+
 ## Research
 
-**Does domain randomization improve generalization in Vision-Language-Action models?**
-Studying this with OpenVLA in Isaac Sim.
+**Locomotion-aware VLA control: how does OpenVLA hold up when its camera sits on a walking base?**
+
+Team research project (EEE, New Horizon College of Engineering). Vision-language-action models are evaluated on fixed or wheeled bases, never on a base that is walking. We're building a low-cost testbed to measure what gait-induced camera motion does to a pretrained policy.
+
+- **Testbed:** hexapod re-actuated with 18 Feetech STS3215 servos, carrying a LeRobot SO-101 arm. Modeled in MuJoCo, with arm reach checked against the legs across standing and walking postures.
+- **Protocol:** zero-shot OpenVLA vs LoRA fine-tuned OpenVLA vs a gait-phase-gated variant, across static, just-stopped and mid-gait conditions, on pick-and-place, push and stack tasks.
+- **Status:** design and protocol done, simulation model built. Hardware build and trials are next. No results yet.
 
 ## Selected work
 
@@ -66,14 +73,67 @@ Nonlinear Model Predictive Control for path tracking on a TurtleBot3. Waypoints 
 
 ## In progress
 
-SENTINEL (quadruped AMR, LiDAR SLAM) · Hexapod on STS3215 servos · SO-101 follower arm · STM32-based embedded control
+- **Hexapod + SO-101 testbed** for the research above: STS3215 servo stack, arm integration through LeRobot, data collection for LoRA fine-tuning
+- **SENTINEL:** quadruped AMR with LiDAR SLAM
+- **STM32-based embedded control**
 
-## Stack
+## Skills
 
-**Languages** Python, C, Embedded C
-**Compute** Raspberry Pi, Jetson
-**Microcontrollers** STM32, Arduino, ESP32
-**Tools** ROS 2, OpenCV, PyTorch, Gazebo, Isaac Sim, Linux
+<table>
+  <tr>
+    <td width="170" valign="top"><b>Robotics &amp; control</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/ROS_2-24242b?style=flat-square&logo=ros&logoColor=white" alt="ROS 2" />
+      <img src="https://img.shields.io/badge/Nav2-24242b?style=flat-square" alt="Nav2" />
+      <img src="https://img.shields.io/badge/SLAM_Toolbox-24242b?style=flat-square" alt="SLAM Toolbox" />
+      <img src="https://img.shields.io/badge/Model_Predictive_Control-24242b?style=flat-square" alt="Model Predictive Control" />
+      <img src="https://img.shields.io/badge/Inverse_Kinematics-24242b?style=flat-square" alt="Inverse Kinematics" />
+      <img src="https://img.shields.io/badge/Gait_Generation-24242b?style=flat-square" alt="Gait Generation" />
+      <img src="https://img.shields.io/badge/LiDAR_SLAM-24242b?style=flat-square" alt="LiDAR SLAM" />
+    </td>
+  </tr>
+  <tr>
+    <td width="170" valign="top"><b>Perception &amp; ML</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/PyTorch-24242b?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+      <img src="https://img.shields.io/badge/OpenCV-24242b?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
+      <img src="https://img.shields.io/badge/YOLO-24242b?style=flat-square" alt="YOLO" />
+      <img src="https://img.shields.io/badge/Depth_Anything_V2-24242b?style=flat-square" alt="Depth Anything V2" />
+      <img src="https://img.shields.io/badge/OpenVLA-24242b?style=flat-square" alt="OpenVLA" />
+    </td>
+  </tr>
+  <tr>
+    <td width="170" valign="top"><b>Simulation</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/MuJoCo-24242b?style=flat-square" alt="MuJoCo" />
+      <img src="https://img.shields.io/badge/Gazebo-24242b?style=flat-square" alt="Gazebo" />
+      <img src="https://img.shields.io/badge/RViz-24242b?style=flat-square" alt="RViz" />
+    </td>
+  </tr>
+  <tr>
+    <td width="170" valign="top"><b>Embedded &amp; hardware</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/STM32-24242b?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32" />
+      <img src="https://img.shields.io/badge/ESP32-24242b?style=flat-square&logo=espressif&logoColor=white" alt="ESP32" />
+      <img src="https://img.shields.io/badge/Arduino-24242b?style=flat-square&logo=arduino&logoColor=white" alt="Arduino" />
+      <img src="https://img.shields.io/badge/Jetson-24242b?style=flat-square&logo=nvidia&logoColor=white" alt="Jetson" />
+      <img src="https://img.shields.io/badge/Raspberry_Pi-24242b?style=flat-square&logo=raspberrypi&logoColor=white" alt="Raspberry Pi" />
+      <img src="https://img.shields.io/badge/Serial_Bus_Servos-24242b?style=flat-square" alt="Serial Bus Servos" />
+      <img src="https://img.shields.io/badge/LiDAR-24242b?style=flat-square" alt="LiDAR" />
+    </td>
+  </tr>
+  <tr>
+    <td width="170" valign="top"><b>Languages &amp; tools</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Python-24242b?style=flat-square&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/C-24242b?style=flat-square&logo=c&logoColor=white" alt="C" />
+      <img src="https://img.shields.io/badge/Embedded_C-24242b?style=flat-square" alt="Embedded C" />
+      <img src="https://img.shields.io/badge/Linux-24242b?style=flat-square&logo=linux&logoColor=white" alt="Linux" />
+      <img src="https://img.shields.io/badge/Git-24242b?style=flat-square&logo=git&logoColor=white" alt="Git" />
+      <img src="https://img.shields.io/badge/LeRobot-24242b?style=flat-square" alt="LeRobot" />
+    </td>
+  </tr>
+</table>
 
 ## Activity
 
@@ -86,4 +146,3 @@ SENTINEL (quadruped AMR, LiDAR SLAM) · Hexapod on STS3215 servos · SO-101 foll
     <img src="https://raw.githubusercontent.com/Deepakk-06/Deepakk-06/output/pacman-contribution-graph-dark.svg" alt="Pacman contribution graph">
   </p>
 </picture>
-
