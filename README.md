@@ -14,8 +14,7 @@
 <p align="center">
   <a href="https://deepxk.vercel.app">Arcade portfolio</a> ·
   <a href="https://www.linkedin.com/in/deepk6/">LinkedIn</a> ·
-  <a href="mailto:deepakk.hq@gmail.com">Email</a> ·
-  <a href="https://youtu.be/SKQvO-AB9XY?t=2">Soundtrack</a>
+  <a href="mailto:deepakk.hq@gmail.com">Email</a>
 </p>
 
 <br/>
@@ -82,51 +81,14 @@ Nonlinear Model Predictive Control for path tracking on a TurtleBot3. Waypoints 
 ## Skills
 
 <p align="center">
-  <sub><b>ROBOTICS · CONTROL</b></sub><br/>
-  <img src="https://img.shields.io/badge/ROS_2-CE1C18?style=for-the-badge&logo=ros&logoColor=white" alt="ROS 2" />
-  <img src="https://img.shields.io/badge/NAV2-CE1C18?style=for-the-badge" alt="Nav2" />
-  <img src="https://img.shields.io/badge/SLAM_TOOLBOX-CE1C18?style=for-the-badge" alt="SLAM Toolbox" />
-  <img src="https://img.shields.io/badge/MPC-CE1C18?style=for-the-badge" alt="MPC" />
-  <img src="https://img.shields.io/badge/INVERSE_KINEMATICS-CE1C18?style=for-the-badge" alt="Inverse Kinematics" />
-  <img src="https://img.shields.io/badge/GAIT_GENERATION-CE1C18?style=for-the-badge" alt="Gait Generation" />
-  <img src="https://img.shields.io/badge/LIDAR_SLAM-CE1C18?style=for-the-badge" alt="LiDAR SLAM" />
+  <img src="./assets/skills.svg" width="760" alt="Skills: robotics and control, perception and ML, simulation, embedded and hardware, languages and tools, research stack" />
 </p>
 
-<p align="center">
-  <sub><b>PERCEPTION · ML</b></sub><br/>
-  <img src="https://img.shields.io/badge/PYTORCH-CE1C18?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/OPENCV-CE1C18?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
-  <img src="https://img.shields.io/badge/YOLO-CE1C18?style=for-the-badge" alt="YOLO" />
-  <img src="https://img.shields.io/badge/DEPTH_ANYTHING_V2-CE1C18?style=for-the-badge" alt="Depth Anything V2" />
-  <img src="https://img.shields.io/badge/OPENVLA-CE1C18?style=for-the-badge" alt="OpenVLA" />
-</p>
+## Listening
 
-<p align="center">
-  <sub><b>SIMULATION</b></sub><br/>
-  <img src="https://img.shields.io/badge/MUJOCO-CE1C18?style=for-the-badge" alt="MuJoCo" />
-  <img src="https://img.shields.io/badge/GAZEBO-CE1C18?style=for-the-badge" alt="Gazebo" />
-  <img src="https://img.shields.io/badge/RVIZ-CE1C18?style=for-the-badge" alt="RViz" />
-</p>
-
-<p align="center">
-  <sub><b>EMBEDDED · HARDWARE</b></sub><br/>
-  <img src="https://img.shields.io/badge/STM32-CE1C18?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32" />
-  <img src="https://img.shields.io/badge/ESP32-CE1C18?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32" />
-  <img src="https://img.shields.io/badge/ARDUINO-CE1C18?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
-  <img src="https://img.shields.io/badge/JETSON-CE1C18?style=for-the-badge&logo=nvidia&logoColor=white" alt="Jetson" />
-  <img src="https://img.shields.io/badge/RASPBERRY_PI-CE1C18?style=for-the-badge&logo=raspberrypi&logoColor=white" alt="Raspberry Pi" />
-  <img src="https://img.shields.io/badge/SERIAL_BUS_SERVOS-CE1C18?style=for-the-badge" alt="Serial Bus Servos" />
-</p>
-
-<p align="center">
-  <sub><b>LANGUAGES · TOOLS</b></sub><br/>
-  <img src="https://img.shields.io/badge/PYTHON-CE1C18?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/C-CE1C18?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/EMBEDDED_C-CE1C18?style=for-the-badge" alt="Embedded C" />
-  <img src="https://img.shields.io/badge/LINUX-CE1C18?style=for-the-badge&logo=linux&logoColor=white" alt="Linux" />
-  <img src="https://img.shields.io/badge/GIT-CE1C18?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/LEROBOT-CE1C18?style=for-the-badge" alt="LeRobot" />
-</p>
+<!--LASTFM:START-->
+<p align="center"><sub>Recent tracks load here from Last.fm.</sub></p>
+<!--LASTFM:END-->
 
 ## Activity
 
